@@ -1,0 +1,22 @@
+nav p {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden; /* Ukryj nadmiarową linię */
+  }
+  
+ nav p::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black; /* Możesz zmienić kolor linii na dowolny inny */
+    transition: width 0.5s ease-in-out;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  nav p:hover::before {
+    width: 100%; /* Linia podkreślająca będzie się rozszerzać od środka w obie strony */
+  }
