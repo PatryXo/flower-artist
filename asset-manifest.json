@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/flower-artist/static/css/main.a628472f.css",
+    "main.js": "/flower-artist/static/js/main.81644b26.js",
+    "static/js/787.eac1608b.chunk.js": "/flower-artist/static/js/787.eac1608b.chunk.js",
+    "index.html": "/flower-artist/index.html",
+    "main.a628472f.css.map": "/flower-artist/static/css/main.a628472f.css.map",
+    "main.81644b26.js.map": "/flower-artist/static/js/main.81644b26.js.map",
+    "787.eac1608b.chunk.js.map": "/flower-artist/static/js/787.eac1608b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a628472f.css",
+    "static/js/main.81644b26.js"
+  ]
+}
