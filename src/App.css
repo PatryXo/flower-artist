@@ -115,7 +115,7 @@ nav p:hover::before {
 .nav-items{
   display: flex;
   gap: 30px;
-  color: black;
+  color: #826368;
   font-weight: bold;
   font-size: 18px;
   margin-right: 2%;
@@ -139,16 +139,67 @@ nav p:hover::before {
     margin-right: 10px;
   }
 
-  .active-hamburger{
-    position: absolute;
-    top: 60px;
-    flex-direction: column;
-    height: 100vh;
-    background-color: red;
-z-index: 0;
-  }
+  
 
 }
 
 
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: white;
+  overflow-x: hidden;
+  gap: 35px
 
+}
+
+section .animate{
+  filter: blur(5px);
+  
+ transition:  1.5s
+  
+}
+
+section.show-animate .animate{
+  filter: blur(0);
+  opacity: 1;
+  
+}
+
+
+.sec-1 .animate{
+  transform: translateX(-100%);
+}
+
+.sec-1.show-animate .animate{
+  transform: translateX(0);
+}
+
+.sec-2 .animate{
+  transform: translateX(100%);
+}
+
+.sec-2.show-animate .animate{
+  transform: translateX(0);
+}
+
+.sec-3 .animate{
+  transform: translateX(-100%);
+}
+
+.sec-3.show-animate .animate{
+  transform: translateX(0);
+}
+
+
+#scrollButton{
+  width: 48px !important;
+  height: 48px !important;
+  color: #826368;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}

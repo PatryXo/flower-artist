@@ -58,6 +58,7 @@ function Navbar() {
           borderBottom: "2px solid #efefef",
           position: "fixed",
           width: "100%",
+          zIndex: '10 '
         }}
       >
         <img
