@@ -60,7 +60,7 @@ function Home() {
         <img
         className=""
           style={{ width: "100%", height: "100vh" }}
-          src="/images/logo.png"
+          src="/img/logo.png"
         />
         <ArrowCircleDownOutlined id="scrollButton" className=""/>
       </div>

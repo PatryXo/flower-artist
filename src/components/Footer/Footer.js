@@ -23,7 +23,7 @@ function Footer() {
     <div className="footer">
       <div className="footer-body">
         <div className="footer-body-element">
-          <img className="logo" src="/images/FLOWER_ARTIST1.png" />
+          <img className="logo" src="/img/FLOWER_ARTIST1.png" />
         </div>
 
         <div className="footer-contact">

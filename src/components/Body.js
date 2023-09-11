@@ -7,7 +7,7 @@ function Body() {
       <section id="section-1" className="sec-1 show-animate">
         <img
           className="animate"
-          src="/images/dorota.jpg"
+          src="/img/dorota.jpg"
           style={{ width: "550px", height: "500px" }}
         />
 
@@ -65,14 +65,14 @@ function Body() {
         </p>
         <img
           className="animate"
-          src="/images/kwiat2.png"
+          src="/img/kwiat2.png"
           style={{ width: "550px", height: "500px" }}
         />
       </section>
       <section className="sec-3">
         <img
           className="animate"
-          src="/images/dorota.jpg"
+          src="/img/dorota.jpg"
           style={{ width: "550px", height: "500px" }}
         />
 
