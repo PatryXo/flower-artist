@@ -3,11 +3,7 @@ import Footer from "../Footer/Footer";
 import Body from "../Body";
 import Navbar from "../Navbar/Navbar";
 import { Button } from "@mui/material";
-import {
-  ArrowCircleDownOutlined,
-  ArrowDropDownCircle,
-  ArrowDropDownCircleOutlined,
-} from "@mui/icons-material";
+import { ArrowCircleDownOutlined } from "@mui/icons-material";
 
 function Home() {
   useEffect(() => {
@@ -15,7 +11,6 @@ function Home() {
 
     window.onscroll = () => {
       sections.forEach((sec, index) => {
-        console.log(index);
         let top = window.scrollY;
         let offset;
         if (index === 0) {
@@ -39,15 +34,15 @@ function Home() {
     scrollButton.addEventListener("click", () => {
       scrollButton.style.display = "none";
       scrollTarget.scrollIntoView({
-        behavior: "smooth", // Wygładzone przewijanie
+        behavior: "smooth",
       });
     });
 
     window.addEventListener("scroll", () => {
       if (window.scrollY > 0) {
-        scrollButton.style.display = "none"; // Pokaż przycisk, gdy użytkownik przewinie stronę w dół
+        scrollButton.style.display = "none";
       } else {
-        scrollButton.style.display = "block"; // Ukryj przycisk, gdy użytkownik jest na samej górze strony
+        scrollButton.style.display = "block";
       }
     });
   }, []);
@@ -57,16 +52,11 @@ function Home() {
 
       <div
         id="start"
-        className=""
-        style={{
-          background: "rgb(255,213,213)",
-          background:
-            "linear-gradient(90deg, rgba(255,213,213,1) 47%, rgba(255,238,238,1) 61%, rgba(255,255,255,1) 100%)",
-        }}
+        
+        
       >
         <img
-          className=""
-          style={{ width: "100%", height: "100vh" }}
+          className="start-image"
           src="/images/logo.png"
         />
         <ArrowCircleDownOutlined id="scrollButton" className="" />

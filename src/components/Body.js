@@ -6,26 +6,12 @@ function Body() {
     <div>
       <section id="section-1" className="sec-1 ">
         <img
-          className="animate"
+          className="image-body animate"
           src="/images/dorota.jpg"
-          style={{ width: "550px", height: "500px" }}
+          
         />
 
-        <p
-          className="animate"
-          style={{
-            width: "40%",
-            fontSize: "20px",
-            lineHeight: "150%",
-            textAlign: "justify",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            // fontWeight: 'bold',
-            fontStyle: "italic",
-            fontSize: "26px",
-          }}
-        >
+        <p className="text-body animate">
           Dorota Oniśko - magister komunikacji i pomocy społecznej, absolwentka
           Studiów Podyplomowych w zakresie nauczania przedmiotó w zawodowych na
           kierunku florystyka, trener umiejętności psychospołecznych, terapeuta
@@ -38,22 +24,8 @@ function Body() {
           do szkoły policealnej Dorota Oniśko Flower Artis już dziś 🌺
         </p>
       </section>
-      <section className="sec-2">
-        <p
-          className="animate"
-          style={{
-            width: "40%",
-            fontSize: "20px",
-            lineHeight: "150%",
-            textAlign: "justify",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            // fontWeight: 'bold',
-            fontStyle: "italic",
-            fontSize: "26px",
-          }}
-        >
+      <section id="section-2" className="sec-2">
+        <p className="text-body animate">
           Zapewniamy naukę na wysokim poziomie, w profesjonalnie wyposażonej
           pracowni florystycznej . Zajęcia teoretyczne odbywają się w sali
           dydaktycznej z klimatyzacją. Zapewniamy dostęp do praktyk zawodowych,
@@ -62,38 +34,24 @@ function Body() {
           atmosferę i pełne zaangażowanie ze strony najlepszych wykładowców 🌺
         </p>
         <img
-          className="animate"
+          className="image-body animate"
           src="/images/kwiat2.png"
-          style={{ width: "550px", height: "500px" }}
+        
         />
       </section>
-      <section className="sec-3">
+      <section id="section-3" className="sec-3">
         <img
-          className="animate"
+          className="image-body animate"
           src="/images/dorota.jpg"
-          style={{ width: "550px", height: "500px" }}
+        
         />
 
-        <p
-          className="animate"
-          style={{
-            width: "40%",
-            fontSize: "20px",
-            lineHeight: "150%",
-            textAlign: "justify",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            // fontWeight: 'bold',
-            fontStyle: "italic",
-            fontSize: "26px",
-          }}
-        >
+        <p className="text-body animate">
           Przyjmujemy osoby, które ukończyły pierwszy semestr florystyki w
           innych szkołach i chcą ukończyć naukę w naszej placówce. Dysponujemy
           profesjonalnym warsztatem dydaktycznym. Zapewnimy profesjonalne
           warunki nauki i perfekcyjne przygotowanie do egzaminu.
-          <br/>
+          <br />
           Zadzwoń: 534275146, lub napisz: szkola.flowerartist@gmail.com
         </p>
       </section>
