@@ -44,9 +44,9 @@ function Footer() {
 
         <div className="footer-open-hours">
           <h3>Godziny otwarcia</h3>
-          <Typography>Pon-Pt: 8:00 - 16:00</Typography>
-          <Typography>Sob: 10:00 - 22:00</Typography>
-          <Typography>Ndz: 10:00 - 16:00</Typography>
+          <Typography>Pon-Pt: 00:00 - 00:00</Typography>
+          <Typography>Sob: 00:00 - 00:00</Typography>
+          <Typography>Ndz: 00:00 - 00:00</Typography>
         </div>
 
         <div className="footer-social-media">
@@ -54,13 +54,13 @@ function Footer() {
             <Facebook sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://www.facebook.com/profile.php?id=61550539516017","_blank")}}/>
           </Tooltip>
           <Tooltip arrow title="Instagram">
-            <Instagram sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://www.facebook.com/profile.php?id=61550539516017","_blank")}}/>
+            <Instagram sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://www.instagram.com/do_flowerartist/","_blank")}}/>
           </Tooltip>
           <Tooltip arrow title="Mapa Google">
             <FmdGood sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://tiny.pl/cdmtd","_blank")}}/>
           </Tooltip>
           <Tooltip arrow title="Wizytówka Google">
-            <Google sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://tiny.pl/cdmtr","_blank")}}/>
+            <Google sx={{ width: "42px", height: "42px" }} onClick={()=>{window.open("https://tiny.pl/c1mnp","_blank")}}/>
           </Tooltip>
         </div>
       </div>

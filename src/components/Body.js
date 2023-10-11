@@ -13,25 +13,25 @@ function Body() {
 
         <p className="text-body animate">
           Dorota Oniśko - magister komunikacji i pomocy społecznej, absolwentka
-          Studiów Podyplomowych w zakresie nauczania przedmiotó w zawodowych na
+          Studiów Podyplomowych w zakresie nauczania przedmiotów zawodowych na
           kierunku florystyka, trener umiejętności psychospołecznych, terapeuta
           zajęciowy. Wykładowca i szkoleniowiec od wielu lat, specjalista w
           swojej dziedzinie. Pasjonatka przyrody, dobry przyjaciel i kochająca
-          mama. Szkoła , którą stworzyła jest miejscem tworzenia wspaniałych
+          mama. Szkoła, którą stworzyła jest miejscem tworzenia wspaniałych
           rzeczy, zrozumienia, empatii i nauczania z pasją. Umysły są jak
           kwiaty, otwierają się tylko wtedy, kiedy nadchodzi właściwy
-          czas😊jeżeli chcesz rozkwitnąć i zmienić coś w swoim życiu zapraszam
+          czas jeżeli chcesz rozkwitnąć i zmienić coś w swoim życiu zapraszam
           do szkoły policealnej Dorota Oniśko Flower Artis już dziś 🌺
         </p>
       </section>
       <section id="section-2" className="sec-2">
         <p className="text-body animate">
           Zapewniamy naukę na wysokim poziomie, w profesjonalnie wyposażonej
-          pracowni florystycznej . Zajęcia teoretyczne odbywają się w sali
+          pracowni florystycznej. Zajęcia teoretyczne odbywają się w sali
           dydaktycznej z klimatyzacją. Zapewniamy dostęp do praktyk zawodowych,
           nasi absolwenci uzyskują certyfikat MEN na poziomie B1 uprawniający do
-          pracy w zawodzie , przede wszystkim jednak gwarantujemy wspaniałą
-          atmosferę i pełne zaangażowanie ze strony najlepszych wykładowców 🌺
+          pracy w zawodzie, przede wszystkim jednak gwarantujemy wspaniałą
+          atmosferę i pełne zaangażowanie ze strony najlepszych wykładowców.
         </p>
         <img
           className="image-body animate"
@@ -42,7 +42,7 @@ function Body() {
       <section id="section-3" className="sec-3">
         <img
           className="image-body animate"
-          src="/images/dorota.jpg"
+          src="/images/309435778_138693668892893_1350548879369987429_n.jpg"
         
         />
 

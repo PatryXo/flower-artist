@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Footer from "../Footer/Footer";
 import Body from "../Body";
 import Navbar from "../Navbar/Navbar";
-import { Button } from "@mui/material";
 import { ArrowCircleDownOutlined } from "@mui/icons-material";
 
 function Home() {
