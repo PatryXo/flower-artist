@@ -30,7 +30,8 @@ nav p:hover::before {
 }
 
 .footer .logo {
-  width: 200px;
+  margin: 1rem;
+  width: 400px;
 }
 
 .footer-body {
@@ -43,13 +44,15 @@ nav p:hover::before {
 .footer-open-hours {
   display: flex;
   flex-direction: column;
-  row-gap: 0.7rem;
 }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   row-gap: 0.7rem;
+  margin: 1rem;
 }
 
 .footer-social-media {
@@ -59,8 +62,16 @@ nav p:hover::before {
 
 .footer .line {
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: flex-start;
   gap: 10px;
+}
+
+@media (max-width: 436px){
+  .footer .logo {
+    margin: 1rem;
+    width: 300px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -117,7 +128,7 @@ nav p:hover::before {
   display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
   .nav-items {
     display: none;
   }

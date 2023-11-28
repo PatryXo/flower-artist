@@ -23,14 +23,11 @@ function Footer() {
     <div className="footer">
       <div className="footer-body">
         <div className="footer-body-element">
-          <img className="logo" src="/images/FLOWER_ARTIST1.png" />
+          <img className="logo" src="/images/logo-szkola-removebg-preview.png" />
         </div>
 
         <div className="footer-contact">
-          <h2 className="footer-contact-title">
-            {" "}
-            Szkoła policealna Flower Artist
-          </h2>
+     
           <Typography className="line">
             <Business /> Władysława Paszkowskiego 3, 15-337 Białystok{" "}
           </Typography>
@@ -44,9 +41,8 @@ function Footer() {
 
         <div className="footer-open-hours">
           <h3>Godziny otwarcia</h3>
-          <Typography>Pon-Pt: 00:00 - 00:00</Typography>
-          <Typography>Sob: 00:00 - 00:00</Typography>
-          <Typography>Ndz: 00:00 - 00:00</Typography>
+          <Typography>Sob-Ndz: 09:00 - 17:00</Typography>
+         
         </div>
 
         <div className="footer-social-media">
