@@ -24,10 +24,25 @@ import {
   ListItemText,
 } from "@mui/material";
 import { useMediaQuery } from "react-responsive";
+import Pdf from "../../Florysta-semestr-letni-2024.pdf";
 
 function Navbar() {
   const [showNavMobile, setShowNavMobile] = useState(false);
   const [openDrawer, setOpenDrawer] = useState(false);
+
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight || document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   const icons = [
     <Home />,
@@ -59,21 +74,39 @@ function Navbar() {
       onKeyDown={toggleDrawer(false)}
     >
       <List sx={{ width: "100%" }}>
-        {[
-          "Strona główna",
-          "Aktualności",
-          "O nas",
-          "Galeria",
-          "Kontakt",
-          "Zamknij",
-        ].map((text, index) => (
-          <ListItem key={text}>
-            <ListItemButton>
-              <ListItemIcon>{icons[index]}</ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
+        {["Strona główna", "Harmonogram zjazdów", "Kontakt"].map(
+          (text, index) => (
+            <ListItem key={text}>
+              <ListItemButton>
+                <ListItemIcon>{icons[index]}</ListItemIcon>
+                <p
+                style={{color: "#826368"}}
+                  onClick={() => {
+                    if (text === "Kontakt") {
+                      scrollToBottom();
+                    }
+                    if (text === "Strona główna") {
+                      scrollToTop();
+                    }
+                  }}
+                >
+                  {text === "Harmonogram zjazdów" ? (
+                    <a
+                      href={Pdf}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      style={{ textDecoration: "none", color: "#826368" }}
+                    >
+                      {text}
+                    </a>
+                  ) : (
+                    text
+                  )}
+                </p>
+              </ListItemButton>
+            </ListItem>
+          )
+        )}
       </List>
 
       <List></List>
@@ -99,7 +132,7 @@ function Navbar() {
         {isMobile ? (
           <img
             src="/images/logo-img-removebg-preview.png"
-            style={{ maxHeight: "50px", display: "flex", marginLeft: '5%' }}
+            style={{ maxHeight: "50px", display: "flex", marginLeft: "5%" }}
           />
         ) : (
           <img
@@ -109,11 +142,19 @@ function Navbar() {
         )}
 
         <div className="nav-items">
-          <p>Strona główna</p>
-          <p>Aktualności</p>
-          <p>O nas</p>
-          <p>Galeria</p>
-          <p>Kontakt</p>
+          <p onClick={scrollToTop}>Strona główna</p>
+
+          <p>
+            <a
+              href={Pdf}
+              rel="noopener noreferrer"
+              target="_blank"
+              style={{ textDecoration: "none", color: "#826368" }}
+            >
+              Harmonogram zjazdów{" "}
+            </a>
+          </p>
+          <p onClick={scrollToBottom}>Kontakt</p>
           <Drawer
             anchor={"top"}
             open={openDrawer}
@@ -129,7 +170,6 @@ function Navbar() {
           />
         </div>
       </div>
-     
     </nav>
   );
 }

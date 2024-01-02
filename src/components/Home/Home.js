@@ -49,15 +49,8 @@ function Home() {
     <div>
       <Navbar />
 
-      <div
-        id="start"
-        
-        
-      >
-        <img
-          className="start-image"
-          src="/images/logo.png"
-        />
+      <div id="start">
+        <img className="start-image" src="/images/logo.png" />
         <ArrowCircleDownOutlined id="scrollButton" className="" />
       </div>
 

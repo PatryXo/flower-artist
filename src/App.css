@@ -195,6 +195,14 @@ section.show-animate .animate {
   transform: translateX(0);
 }
 
+.sec-4 .animate {
+  transform: translateX(100%);
+}
+
+.sec-4.show-animate .animate {
+  transform: translateX(0);
+}
+
 #scrollButton {
   width: 48px !important;
   height: 48px !important;
